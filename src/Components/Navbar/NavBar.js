@@ -1,5 +1,6 @@
 import React from "react";
-
+import CartWidget from "./CartWidget/CartWitget";
+import './Navbar.css';
 
 class Navbar extends React.Component {
     render() {
@@ -12,6 +13,7 @@ class Navbar extends React.Component {
                 <li><a href="#">Desarrollos</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Contacto</a></li>
+                <li><a href="#"><CartWidget/></a></li>
             </ul>
         </nav>
         )
@@ -19,3 +21,6 @@ class Navbar extends React.Component {
 }
 
 export default Navbar
+
+
+
